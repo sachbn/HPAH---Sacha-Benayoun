@@ -36,12 +36,37 @@ public class Main {
         Level1 level1 = new Level1();
         level1.startLevel(player, scanner);
 
-
-
         clearScreen();
         displayMessageWithDelay("----LEVEL II----",2);
         Level2 level2 = new Level2();
         level2.startLevel(player, scanner, playerHouse.getName());
+
+        clearScreen();
+        displayMessageWithDelay("----LEVEL III----",2);
+        Level3 level3 = new Level3();
+        level3.startLevel(player, scanner, playerHouse.getName());
+
+        clearScreen();
+        displayMessageWithDelay("----LEVEL IV----",2);
+        Level4 level4 = new Level4();
+        level3.startLevel(player, scanner, playerHouse.getName());
+
+        clearScreen();
+        displayMessageWithDelay("----LEVEL V----",2);
+        Level5 level5 = new Level5();
+        level3.startLevel(player, scanner, playerHouse.getName());
+
+        clearScreen();
+        displayMessageWithDelay("----LEVEL VI----",2);
+        Level6 level6 = new Level6();
+        level3.startLevel(player, scanner, playerHouse.getName());
+
+        clearScreen();
+        displayMessageWithDelay("----LEVEL VII----",2);
+        Level7 level7 = new Level7();
+        level3.startLevel(player, scanner, playerHouse.getName());
+
+
     }
 
     private static void displayMessageWithDelay(String message, int seconds) {
